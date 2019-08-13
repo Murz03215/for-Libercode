@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-navigation,
+.features-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+.user-navigation a{
+    background-color: gray;
+    color:black;
+}
+
+.features-navigation li:last-child{
+}
+
+.features-navigation a,
+.site-navigation a{
+    background-color:#32425c;
+    font-size: 17px;
+    line-height: 17px;   
+    color: white;
+}
+
+.user-navigation a:hover{
+    color: red;
+}
+
+.user-navigation a:focus{
+    color: #cacaca;
+}
+
+.site-navigation a:hover {
+    background-color:#293449;
+}
+.site-navigation a:focus {
+    background-color: #1d2739;
+    color: #93969c;
+}
+
+
+
+h1{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog-navigation,
+.site-navigation-footer{
+    list-style: none;
+}
+
+.catalog-navigation a{
+    background-color:#32425c;
+    color: #ffd180;
+}
+
+.catalog-navigation a:hover{
+    text-decoration: underline;
+}
+
+.catalog-navigation a:focus{
+    color: #99866b;
+    text-decoration: none;
+}
+
+.site-navigation-footer a{
+    background-color: #32425c;
+    color: white;
+}
+
+.site-navigation-footer a:hover{
+    text-decoration: underline;
+}
+
+.site-navigation-footer a:focus{
+    color: #9ea5af;
+}
+
+.footer-social ul{
+    list-style: none;
+}
+
+.footer-social a:hover,
+.footer-social a:focus{
+    background-color: #ee3643;
+}
+
+
+
+
+
+
+.main-header {
+    min-height: 320px;
+    margin-bottom: 60px;
+}
+
+.main-navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.features-navigation {
+    margin: 0px;
+    padding: 0px;
+}
+
+.user-navigation {
+    margin: 0px;
+    padding: 0px; 
+}
+
+.site-navigation {
+    margin: 0px;
+    padding: 0px;
+    width: 940px;
+}
+
+
+
+.block1 {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.features-navigation {
+    dispay: flex;
+    align-items: center;
+    width: 460px;
+
+}
+
+.block3 {
+    width: 940px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+.site-navigation {
+    background-color: #32425c;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 0px #293449;
+    padding: 20px;
+}
